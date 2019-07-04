@@ -1,0 +1,161 @@
+
+#container {
+    width: 1500px;
+    border: 1px;
+    border-style: solid;
+    border-color: gray;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+h1 a{
+    font-size: 50px;
+    font-weight: 100;
+    color: #861BBF;
+    text-decoration: none;
+}
+#searchBox {
+    float: right;
+    background: linear-gradient(white, green);
+    height: 50px;
+    width: 400px;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+#brand {
+    float: left;
+}
+
+#header {
+    height: 100px;
+    padding: 20px 0px;
+}
+
+.text {
+    float: left;
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+    color: orange;
+    background: white url(images/search.png) right center no-repeat;
+    
+}
+
+.submit {
+    float: right;
+    background-color: #A751D6;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+ul {
+    list-style: none;
+}
+
+#menu ul li {
+   float: left; 
+    padding: 0 50px;
+    height: 30px;
+    border-right: 1px solid green;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #5d12e7;
+    line-height: 30px;
+}
+
+#menu ul li:last-child{
+    border-right:  none;
+}
+
+#menu ul li a:hover{
+    font-size: 20px;
+    font-weight: bold;
+    color: purple;
+}
+#menu {
+    height: 70px;
+    background: linear-gradient(yellow, orange);
+    padding: 5px 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.active {
+    font-weight: bold;
+}
+
+#intro {
+    background-color: green;
+    padding: 30px;
+    margin: 15px 0;
+    margin-bottom: auto;
+}
+
+#intro h2{
+    font-size: 45px;
+    color: aqua;
+    font-weight: normal;
+    
+}
+
+#intro p{
+    font-size: 30px;
+    color: aquamarine;
+    text-align: justify;
+    word-wrap: break-word;
+}
+
+.sidebar {
+    height: 500px;
+    width: 600px;
+    padding: 10px 30px;
+}
+
+.sidebar h3{
+    color: purple;
+    font-size: 30px;
+}
+
+#leftsidebar {
+    float: left;
+    border: 1px;
+    border-style: solid;
+    border-color: green;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+#rightsidebar {
+    float: right;
+    border: 1px;
+    border-style: solid;
+    border-color: green;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+#leftsidebar ul li{
+    padding-bottom:  10px;
+    padding-left: 10px;
+    list-style-image: url(/images/search.png);
+}
+
+#rightsidebar ul li{
+    padding-bottom:  10px;
+    padding-left: 10px;
+    list-style-image: url(/images/search.png);
+}
